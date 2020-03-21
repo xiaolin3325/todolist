@@ -15,13 +15,13 @@
     text-shadow   color  -1px 水平偏移量 负左,正右 -3px 垂直偏移量  负上，正下
 
 HTML标签
-有序标签
+有序标签  ol
 <ol>
 <li></li>
 <li></li>
 </ol>
 
-无序标签
+无序标签 ul
 <ul>
 <li></li>
 <li></li>
