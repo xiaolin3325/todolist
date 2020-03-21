@@ -186,4 +186,4 @@ If you are sure you want to delete it, run 'git branch -D testing'
 列出已合并或未合并到 当前 分支的分支。
 
 分支开发工作流
-
+删除远程分支  git push origin --delete css
