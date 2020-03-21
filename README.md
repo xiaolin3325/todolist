@@ -114,3 +114,5 @@ $ git tag -d v1.0
 git checkout -b version2 v2.0.0  如果在这之后又进行了一次提交，version2 分支就会因为这个改动向前移动， 此时它就会和 v2.0.0 标签稍微有些不同，这时就要当心了。
 
 Git 别名
+
+git checkout branch 分支切换
