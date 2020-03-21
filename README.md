@@ -177,3 +177,13 @@ git merge hotfix
 （指针右移），因为这种情况下的合并操作没有需要解决的分歧——这就叫做 “快进（fast-forward）
 
 现在，最新的修改已经在 master 分支所指向的提交快照中，你可以着手发布该修复了。
+
+ git branch -d testing
+error: The branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'
+
+上面描述的选项 --merged 和 --no-merged 会在没有给定提交或分支名作为参数时， 分别
+列出已合并或未合并到 当前 分支的分支。
+
+分支开发工作流
+
