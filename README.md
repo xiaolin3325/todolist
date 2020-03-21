@@ -167,3 +167,7 @@ git log 命令查看分叉历史。 运行 git log --oneline --decorate --graph
 $ git checkout -b iss53     效果一致：git branch iss53  && git checkout iss53
 Switched to a new branch "iss53"   提交后，切换分支
 
+你可以运行你的测试，确保你的修改是正确的，然后将 hotfix 分支合并回你的 master 分支来部署到线上。
+你可以使用 git merge 命令来达到上述目的
+
+git merge hotfix
